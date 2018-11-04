@@ -1,0 +1,2 @@
+xst -intstyle ise -ifn "/home/ray/home/classes/cs/152a/lab3/lab3/nexys3.xst" -ofn "/home/ray/home/classes/cs/152a/lab3/lab3/nexys3.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc nexys3.ucf -p xc6slx16-csg324-2 nexys3.ngc nexys3.ngd  

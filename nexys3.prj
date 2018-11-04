@@ -1,0 +1,3 @@
+verilog work "counter.v"
+verilog work "clocks.v"
+verilog work "nexys3.v"

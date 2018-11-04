@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="HDLCompiler" num="1335" delta="new" >"/home/ray/home/classes/cs/152a/lab3/lab3/counter.v" Line 13: Port <arg fmt="%s" index="1">digits</arg> must not be declared to be an array
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="new" >"/home/ray/home/classes/cs/152a/lab3/lab3/nexys3.v" Line 5: Port <arg fmt="%s" index="1">blink_clk</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="new" >"/home/ray/home/classes/cs/152a/lab3/lab3/nexys3.v" Line 11: Port <arg fmt="%s" index="1">digits</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="new" >"/home/ray/home/classes/cs/152a/lab3/lab3/counter.v" Line 23: Result of <arg fmt="%d" index="1">5</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">4</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="new" >"/home/ray/home/classes/cs/152a/lab3/lab3/counter.v" Line 26: Result of <arg fmt="%d" index="1">5</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">4</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="552" delta="new" >"/home/ray/home/classes/cs/152a/lab3/lab3/nexys3.v" Line 5: Input port <arg fmt="%s" index="1">clk</arg> is not connected on this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="552" delta="new" >"/home/ray/home/classes/cs/152a/lab3/lab3/nexys3.v" Line 11: Input port <arg fmt="%s" index="1">clk</arg> is not connected on this instance
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="new" >&quot;<arg fmt="%s" index="1">/home/ray/home/classes/cs/152a/lab3/lab3/nexys3.v</arg>&quot; line <arg fmt="%d" index="2">5</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">clocks_</arg>&gt; of block &lt;<arg fmt="%s" index="4">clocks</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">nexys3</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="new" >&quot;<arg fmt="%s" index="1">/home/ray/home/classes/cs/152a/lab3/lab3/nexys3.v</arg>&quot; line <arg fmt="%d" index="2">11</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">counter_</arg>&gt; of block &lt;<arg fmt="%s" index="4">counter</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">nexys3</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="warning" file="Xst" num="2898" delta="new" >Port &apos;<arg fmt="%s" index="1">clk</arg>&apos;, unconnected in block instance &apos;<arg fmt="%s" index="2">clocks_</arg>&apos;, is tied to GND.
+</msg>
+
+<msg type="warning" file="Xst" num="2898" delta="new" >Port &apos;<arg fmt="%s" index="1">rst</arg>&apos;, unconnected in block instance &apos;<arg fmt="%s" index="2">clocks_</arg>&apos;, is tied to GND.
+</msg>
+
+<msg type="warning" file="Xst" num="2898" delta="new" >Port &apos;<arg fmt="%s" index="1">clk</arg>&apos;, unconnected in block instance &apos;<arg fmt="%s" index="2">counter_</arg>&apos;, is tied to GND.
+</msg>
+
+<msg type="warning" file="Xst" num="2898" delta="new" >Port &apos;<arg fmt="%s" index="1">rst</arg>&apos;, unconnected in block instance &apos;<arg fmt="%s" index="2">counter_</arg>&apos;, is tied to GND.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/ray/home/classes/cs/152a/lab3/lab3/nexys3.v</arg>&quot; line <arg fmt="%s" index="2">5</arg>: Output port &lt;<arg fmt="%s" index="3">blink_clk</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">clocks_</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/ray/home/classes/cs/152a/lab3/lab3/nexys3.v</arg>&quot; line <arg fmt="%s" index="2">5</arg>: Output port &lt;<arg fmt="%s" index="3">sec_clk</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">clocks_</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/ray/home/classes/cs/152a/lab3/lab3/nexys3.v</arg>&quot; line <arg fmt="%s" index="2">5</arg>: Output port &lt;<arg fmt="%s" index="3">display_clk</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">clocks_</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/ray/home/classes/cs/152a/lab3/lab3/nexys3.v</arg>&quot; line <arg fmt="%s" index="2">11</arg>: Output port &lt;<arg fmt="%s" index="3">digits</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">counter_</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+</messages>
+
